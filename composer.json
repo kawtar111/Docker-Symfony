@@ -1,0 +1,6 @@
+{
+    "require": {
+        "symfony/asset": "^6.0",
+        "symfony/security-bundle": "^6.0"
+    }
+}

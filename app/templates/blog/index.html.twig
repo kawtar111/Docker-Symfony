@@ -1,0 +1,118 @@
+{% extends "base.html.twig" %}
+{% block stylesheets %}
+{% endblock %}
+{% block title %}Home Page{% endblock %}
+        {% block body %}
+        <style>
+       body{
+            padding: 0px 20px;
+            margin: 50px;
+       }
+    .ab
+        {
+            border-radius: 10px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+            padding: 16px 20px;
+        }
+
+    img{
+       border-radius: 10px;
+       box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       height: 300px;
+       width: 400px;
+       
+        }
+    .btn-info {
+       background-color: #008E89; 
+       border: none;
+       color: white;
+       padding: 15px 32px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 16px;
+           }
+           
+        </style>
+        <section class="articls">
+        <p></p>
+        <article class="">
+        <h2>Python Language</h2>
+        </div>
+        <div class="contanent>
+        <embed(fopen(/path/to/image, 'r'), 'logo')
+<img src="cid:logo"> 
+        <img src="{{ asset('images/python.png') }}" alt="Symfony!"/>
+        <p>
+        Python est le langage de programmation open source le plus employé par les informaticiens. Ce langage s’est propulsé en tête de la
+        gestion d’infrastructure, </br>d’analyse de données ou dans le domaine du développement de logiciels. En effet, parmi ses qualités, Python 
+        permet notamment aux développeurs de se concentrer sur ce qu’ils font plutôt </br>que sur la manière dont ils le font. Il a libéré les 
+        développeurs des contraintes de formes qui occupaient leur temps avec les langages plus anciens. Ainsi, développer du code avec Python 
+        est plus rapide qu’avec d’autres langages.
+        </p>
+        <a class="btn-info" href="{{path('article_js')}}" style="background-color:#008E89;">Show more</a>
+        </div> 
+        </article>
+        </section>
+
+
+         <section class="articls">
+        <p></p>
+        <article class="">
+        <h2>Java Language</h2>
+        </div>
+        <div class="contanent>
+        <embed(fopen(/path/to/image, 'r'), 'logo')
+<img src="cid:logo"> 
+        <img src="{{ asset('images/java.png') }}" alt="Symfony!"/>
+        <p>
+        Java est une technique informatique développée initialement par Sun Microsystems puis acquise par Oracle à la 
+        suite du rachat de l'entreprise. Défini à l'origine comme un langage de programmation, </br>Java a évolué pour 
+        devenir un ensemble cohérent d'éléments techniques et non techniques. Ainsi, la technologie Java regroupe :
+        Des standards (la plate-forme Java) définis sous forme de spécification par le Java Community Process (JCP), 
+        en trois éditions :
+          Java SE (standard edition),
+          Java EE (enterprise edition), s'appuyant sur Java SE,
+          Java ME (micro edition), indépendante des deux précédentes ;
+        Des logiciels (langages informatiques, bibliothèques, frameworks, serveurs d'application, outils d'aide au 
+        développement), dont :
+          Des implémentations (concurrentes) de ces spécifications,
+        Un écosystème d'autres logiciels s'appuyant sur tout ou partie de ces standards, voire leur faisant concurrence ;
+        Des communautés d'entreprises, organisations à but non lucratif (fondations, Java User Groups, universités) et 
+        indépendants, membres ou non du JCP, possédant tout ou partie des marques, brevets, parts de marché liés à la 
+        technologie Java. 
+        </p>
+        <a class="btn-info" href="{{path('article_java')}}" style="background-color:#008E89;">Show more</a>
+
+        </div> 
+        </article>
+        </section>
+
+
+
+        <section class="articls">
+        <p></p>
+        <article class="">
+        <h2>PHP Language</h2>
+        </div>
+        <div class="contanent>
+        <embed(fopen(/path/to/image, 'r'), 'logo')
+<img src="cid:logo"> 
+        <img src="{{ asset('images/php.png') }}" alt="Symfony!"/>
+        <p>
+        PHP: Hypertext Preprocessor28, plus connu sous son sigle PHP (sigle auto-référentiel), est un langage de 
+        programmation libre29, principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP28, 
+        mais pouvant également fonctionner comme n'importe quel langage interprété de façon locale. PHP est un langage 
+        impératif orienté objet.
+        PHP a permis de créer un grand nombre de sites web célèbres, comme Facebook et Wikipédia30. Il est considéré comme 
+        une des bases de la création de sites web dits dynamiques mais également des applications web.
+        </p>
+        <a class="btn-info" href="{{path('article_php')}}" style="background-color:#008E89;">Show more</a>
+        </div> 
+        </article>
+        </section>
+        {% endblock %}
+        {% block javascripts %}{% endblock %}
